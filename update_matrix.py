@@ -126,8 +126,8 @@ while True:
     sense.set_pixels(level_7)
   elif index == 8:
     sense.set_pixels(level_8)
-if index < 8:
-  index += 1
-else:
-  index = 0
-time.sleep(1.5)
+  if index < 8:
+    index += 1
+  else:
+    index = 0
+  time.sleep(1.5)
