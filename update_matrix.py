@@ -107,6 +107,7 @@ X, X, X, X, X, X, X, X
 ]
 index = 0
 while True:
+  print(index)
   if index == 0:
     sense.set_pixels(level_0)
   elif index == 1:
