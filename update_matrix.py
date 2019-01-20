@@ -109,21 +109,21 @@ index = 0
 while True:
   if index == 0:
     sense.set_pixels(level_0)
-  else if index == 1:
+  elif index == 1:
     sense.set_pixels(level_1)
-  else if index == 2:
+  elif index == 2:
     sense.set_pixels(level_2)
-  else if index == 3:
+  elif index == 3:
     sense.set_pixels(level_3)
-  else if index == 4:
+  elif index == 4:
     sense.set_pixels(level_4)
-  else if index == 5:
+  elif index == 5:
     sense.set_pixels(level_5)
-  else if index == 6:
+  elif index == 6:
     sense.set_pixels(level_6)
-  else if index == 7:
+  elif index == 7:
     sense.set_pixels(level_7)
-  else if index == 8:
+  elif index == 8:
     sense.set_pixels(level_8)
 if index < 8:
   index += 1
